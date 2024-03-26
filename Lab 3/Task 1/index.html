@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Введіть відкритий текст:</td>
+            <td><input type="text" name="plaintext" id="plaintext"></td>
+        </tr>
+        <tr>
+            <td>Введіть ключову гаму:</td>
+            <td><input type="text" name="key-scale" id="key-scale"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="XOR()">Результат</button></td>
+        </tr>
+    </table>
+    <p id="plaintext-binary-code"></p>
+    <p id="result-binary-code"></p>
+    <p id="result-ciphertext"></p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
